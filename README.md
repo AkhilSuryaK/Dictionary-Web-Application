@@ -15,9 +15,6 @@ CSS3 (Bootstrap 5)
 JavaScript (Vanilla JS)
 REST API (API Ninjas via RapidAPI)
 
-📸 Preview
-(Add your actual screenshot here)
-
 🔧 How It Works
 User enters an English word.
 JavaScript fetches the meaning using the API Ninjas Dictionary API.
