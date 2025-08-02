@@ -56,11 +56,11 @@ Dictionary-Web-Application/
 git clone https://github.com/AkhilSuryaK/Dictionary-Web-Application.git
 cd Dictionary-Web-Application
 
-### 2️⃣ Get API Key
+2️⃣ Get API Key
 Go to API Ninjas Dictionary API
 Subscribe and get your API key
 
-### 3️⃣ Configure the API Key
+3️⃣ Configure the API Key
 Open script.js
 Replace 'YOUR_API_KEY_HERE' with your actual key:
 
@@ -69,7 +69,7 @@ headers: {
   'X-RapidAPI-Host': 'dictionary-by-api-ninjas.p.rapidapi.com'
 }
 
-### 4️⃣ Run the App
+4️⃣ Run the App
 Open index.html in your browser
 Start searching for words!💡 Future Improvements
 🔊 Add pronunciation or audio playback
