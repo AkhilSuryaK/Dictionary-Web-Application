@@ -1,54 +1,89 @@
-# Dictionary-Web-Application
+# 📘 Dictionary Web Application
 
-📘 Dictionary Web App
-A simple, responsive dictionary web application that allows users to search for English word definitions in real-time using a public REST API.
+A simple and responsive dictionary web app that allows users to search for **English word definitions** in real-time using the **API Ninjas Dictionary API**.
 
-🚀 Features
-Real-time word search
-Clean and responsive UI with Bootstrap
-Fetches word definitions using the API Ninjas Dictionary API
-Error handling for invalid or empty inputs
+> 🔗 Live Demo: _Coming Soon_  
+> 👨‍💻 Developed by [Kolipaka Akhil Surya](https://www.linkedin.com/in/akhilsurya/)
 
-🛠️ Tech Stack
-HTML5
-CSS3 (Bootstrap 5)
-JavaScript (Vanilla JS)
-REST API (API Ninjas via RapidAPI)
+---
 
-🔧 How It Works
-User enters an English word.
-JavaScript fetches the meaning using the API Ninjas Dictionary API.
-The result is displayed dynamically below the search box.
+## 🚀 Features
 
-🖥️ Setup Instructions
-Clone the repository:
-git clone
+- 🔍 **Real-time word search**
+- 💡 **Clean and responsive UI** using Bootstrap
+- 🔗 **Live dictionary API integration**
+- ⚠️ **Handles invalid or empty input gracefully**
 
-Open the folder in VS Code or any code editor.
-Replace YOUR_API_KEY_HERE in the JavaScript file with your actual API key from RapidAPI.
-Open index.html in a browser to run the app locally.
+---
 
-🔐 API Key Setup
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3 (Bootstrap 5), JavaScript (Vanilla)
+- **API:** [API Ninjas Dictionary API](https://rapidapi.com/apininjas/api/dictionary-by-api-ninjas)
+
+---
+
+## 📁 Project Structure
+
+Dictionary-Web-Application/
+
+├── index.html # Main HTML file
+
+├── style.css # Custom styles (optional, if separated)
+
+├── script.js # JavaScript file for API logic
+
+├── README.md # Project documentation
+
+└── .gitignore # (Optional)
+
+
+---
+
+## 🔧 How It Works
+
+1. User enters an English word in the input box.
+2. JavaScript sends a request to the Dictionary API.
+3. The API returns the definition.
+4. The result is dynamically displayed below the search box.
+
+---
+
+## 🖥️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/AkhilSuryaK/Dictionary-Web-Application.git
+cd Dictionary-Web-Application
+
+2️⃣ Get API Key
 Go to API Ninjas Dictionary API
-Subscribe and get your API key.
-Replace the placeholder in the code:
+Subscribe and get your API key
 
-js
+3️⃣ Configure the API Key
+Open script.js
+Replace 'YOUR_API_KEY_HERE' with your actual key:
 
 headers: {
   'X-RapidAPI-Key': 'YOUR_API_KEY_HERE',
-  ...
+  'X-RapidAPI-Host': 'dictionary-by-api-ninjas.p.rapidapi.com'
 }
 
-💡 Future Improvements
-Add pronunciation/audio playback
-Add synonyms and antonyms
-Enable dark mode
-Save search history
+4️⃣ Run the App
+Open index.html in your browser
+Start searching for words!💡 Future Improvements
+🔊 Add pronunciation or audio playback
+🔁 Include synonyms and antonyms
+🌙 Enable dark mode toggle
+🧠 Save user search history locally
 
-👨‍💻 Author
-Kolipaka Akhil Surya
+📬 Contact
 GitHub: @AkhilSuryaK
+LinkedIn: Akhil Surya Kolipaka
 
 📄 License
 This project is licensed under the MIT License.
+
+---
+
+Let me know if you'd like help uploading these to GitHub or adding project badges!
