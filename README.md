@@ -2,7 +2,7 @@
 
 A simple and responsive dictionary web app that allows users to search for **English word definitions** in real-time using the **API Ninjas Dictionary API**.
 
-> 🔗 Live Demo: _Coming Soon_  
+> 🔗 Live Demo: https://dictionary-web-by-rapidapi.netlify.app  
 > 👨‍💻 Developed by [Kolipaka Akhil Surya](https://www.linkedin.com/in/akhilsurya/)
 
 ---
